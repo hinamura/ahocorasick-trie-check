@@ -5,12 +5,14 @@
 
 ## Result
 
-| word  | result |
-| :---- | :---:  |
-| ㈱ | Failed |
-| ① | Success|
-| ㊤ | Success |
-| ㍻ | Failed |
+| word  | result (NFKC) | result (NFC) |
+| :---- | :---:  | : ---: |
+| ㈱ | Failed | Success |
+| ① | Success| Success |
+| ㊤ | Success | Success |
+| ㍻ | Failed | Success |
+
+### NFKC
 
 ```
 [info] TrieSampleSpec:
