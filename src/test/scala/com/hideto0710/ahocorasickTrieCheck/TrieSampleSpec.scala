@@ -37,7 +37,7 @@ class TrieSampleSpec() extends FlatSpec() with Matchers {
     result.head should be ("テスト")
   }
 
-  it should "be return matched string (including circle hesei)" in {
+  it should "be return matched string (including hesei)" in {
     val sample = new TrieSample(Seq("テスト"))
     val body = "㍻ これはAho-Corasick Trieの日本語テストです。"
     val result = sample.execute(body)
