@@ -1,4 +1,4 @@
-package com.hideto0710.ahocorasickTrieCheck
+package com.hinamura.ahocorasickTrieCheck
 
 import org.scalatest.{Matchers, FlatSpec}
 

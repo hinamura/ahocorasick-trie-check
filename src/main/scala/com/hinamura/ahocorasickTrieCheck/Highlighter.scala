@@ -1,4 +1,4 @@
-package com.hideto0710.ahocorasickTrieCheck
+package com.hinamura.ahocorasickTrieCheck
 
 import scala.collection.JavaConversions.collectionAsScalaIterable
 import scala.collection.mutable.ListBuffer
