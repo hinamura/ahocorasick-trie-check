@@ -6,7 +6,7 @@
 ## Result
 
 | word  | result (NFKC) | result (NFC) |
-| :---- | :---:  | : ---: |
+| :---- | :---:  | :---: |
 | ㈱ | Failed | Success |
 | ① | Success| Success |
 | ㊤ | Success | Success |
