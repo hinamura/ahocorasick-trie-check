@@ -22,6 +22,6 @@ class TrieSample(words: Seq[String]) {
 }
 
 object TrieSample {
-  val normalizer = Normalizer2.getNFKCCasefoldInstance
+  val normalizer = Normalizer2.getNFCInstance
   def normalize(s: String): String = normalizer.normalize(s)
 }
