@@ -1,5 +1,8 @@
 # ahocorasick-trie-check
 
+## Test
+`$ sbt test`
+
 ## Result
 
 | word  | result |
