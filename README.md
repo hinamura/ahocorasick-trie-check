@@ -2,6 +2,13 @@
 
 ## Result
 
+| word  | result |
+| :---- | :---:  |
+| ㈱ | Faild |
+| ① | Success|
+| ㊤ | Success |
+| ㍻ | Faild |
+
 ```
 [info] TrieSampleSpec:
 [info] TrieSample.execute
@@ -10,7 +17,7 @@
 [info]   "[トです]" was not equal to "[テスト]" (TrieSampleSpec.scala:23)
 [info] - should be return matched string (including circle 1)
 [info] - should be return matched string (including circle up)
-[info] - should be return matched string (including circle hesei) *** FAILED ***
+[info] - should be return matched string (including hesei) *** FAILED ***
 [info]   "[ストで]" was not equal to "[テスト]" (TrieSampleSpec.scala:45)
 [info] ScalaTest
 [info] Run completed in 411 milliseconds.
