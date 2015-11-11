@@ -7,10 +7,10 @@
 
 | word  | result |
 | :---- | :---:  |
-| ㈱ | Faild |
+| ㈱ | Failed |
 | ① | Success|
 | ㊤ | Success |
-| ㍻ | Faild |
+| ㍻ | Failed |
 
 ```
 [info] TrieSampleSpec:
