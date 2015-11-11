@@ -13,7 +13,7 @@ class TrieSample(words: Seq[String]) {
 
   def execute(s: String): List[String] = {
     val result = new ListBuffer[String]
-    trie.parseText(Highlighter.normalize(s).replace("\n", " ")).toSeq.sortBy(_.getStart).foreach(e => {
+    trie.parseText(TrieSample.normalize(s).replace("\n", " ")).toSeq.sortBy(_.getStart).foreach(e => {
       val r = s.substring(e.getStart, e.getEnd + 1)
       result.append(r)
     })
